@@ -1,10 +1,10 @@
-import img1 from "../photo/project_pic/holy.jpg"; //13
-import img2 from "../photo/project_pic/nazrul.jpg"; //12
+import img1 from "../photo/project_pic/holy.jpeg"; //13
+import img2 from "../photo/project_pic/nazrul.jpeg"; //12
 import img3 from "../photo/project_pic/azher.jpg"; //11
-import img4 from "../photo/project_pic/residen.jpg"; //4
-import img5 from "../photo/project_pic/beach.jpg"; //10
-import img6 from "../photo/project_pic/khan.jpg"; //3
-import img7 from "../photo/project_pic/residen1.jpg"; //5
+import img4 from "../photo/project_pic/residen.jpeg"; //4
+import img5 from "../photo/project_pic/beach.jpeg"; //10
+import img6 from "../photo/project_pic/khan.jpeg"; //3
+import img7 from "../photo/project_pic/residen1.jpeg"; //5
 import img8 from "../photo/project_pic/cum.jpg"; //2
 import img9 from "../photo/project_pic/bondhon.jpg"; //9
 // import img10 from "../photo/project_pic/rover.png"; //8
@@ -119,6 +119,7 @@ function Products() {
               <img
                 src={brand.image}
                 alt={brand.name}
+                loading="lazy"
                 className="w-full h-50 sm:h-40 pl-2 pr-2"
               />
             </div>

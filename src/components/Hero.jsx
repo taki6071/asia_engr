@@ -69,6 +69,7 @@ function Hero() {
               <img
                 src={img}
                 alt=""
+                loading="lazy"
                 className="w-full h-full object-cover" // or object-contain
               />
             </div>
@@ -141,6 +142,7 @@ function Hero() {
               src={vdo}
               autoPlay
               loop
+              preload="metadata"
               muted
               playsInline
             />
@@ -153,6 +155,7 @@ function Hero() {
               src={vdo}
               autoPlay
               loop
+              preload="metadata"
               muted
               playsInline
             />
