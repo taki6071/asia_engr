@@ -1,0 +1,12 @@
+import React from "react";
+
+function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white text-center py-6 mt-10">
+      <p className="text-gray-300 p-8">© 2025 Asia Engineers Ltd. All rights reserved.</p>
+      {/* <p className="text-gray-300"><a href="http://192.168.1.4:5173/admin-login">Admin</a></p> */}
+    </footer>
+  );
+}
+
+export default Footer;
